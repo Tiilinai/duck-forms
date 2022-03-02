@@ -1,8 +1,8 @@
 body {
-    background-color: aqua;
+    background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    transform: translateY(100px);
 }
 
 div.parent {
@@ -11,7 +11,52 @@ div.parent {
     justify-content: end;
     min-width: 954px;
     min-height: 594px;
-    
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FDFFFF;
+}
+
+div.input {
+    min-width: 400px;
+    min-height: 72px;
+    background-color: #BE0909;
+}
+input { 
+    background-color: #BE0909;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #9DBEBB;
+}
+
+input:hover {
+    background-color: #FDFFFF;
+}
+
+::placeholder {
+    color: #FDFFFF;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #9DBEBB;
+}
+
+textarea {
+    background-color: #BE0909;
+    border-style: none;
+    resize: none;
+    height: 21px ;
+    width: 324;
+}
+
+textarea:hover {
+    background-color:#FDFFFF;
 }
 
 div.rectangle__right {

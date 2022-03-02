@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.parent {
+    background-color: #BE0909;
+    display: flex;
+    justify-content: end;
+    min-width: 954px;
+    min-height: 594px;
+    
+}
+
+div.rectangle__right {
+    display: flex;
+    justify-content: end;
+    min-width: 345px;
+    min-height: 594px;
+    background: #FFB039;
+}
+
+img {
+    position: absolute;
+}

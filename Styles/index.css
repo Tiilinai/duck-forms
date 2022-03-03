@@ -36,7 +36,8 @@ input {
 }
 
 input:hover {
-    background-color: #FDFFFF;
+    border: solid;
+    border-color: #FDFFFF;
 }
 
 ::placeholder {
@@ -56,7 +57,7 @@ textarea {
 }
 
 textarea:hover {
-    background-color:#FDFFFF;
+    border-color: #FDFFFF;
 }
 
 div.rectangle__right {

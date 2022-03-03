@@ -57,6 +57,7 @@ textarea {
 }
 
 textarea:hover {
+    border-style: solid;
     border-color: #FDFFFF;
 }
 
